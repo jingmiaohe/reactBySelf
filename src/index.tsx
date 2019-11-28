@@ -1,7 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+// import './util/prism/prism.js'
+import './util/prism/prism.css'
+import 'antd/dist/antd.css';
+import './App.less';
+import './css.less';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
