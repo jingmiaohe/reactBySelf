@@ -54,7 +54,7 @@ class ObserveArr extends React.Component<Greeting> {
         const html:any = highlight(js,languages.js,'js')
         return (
            <div className = "cssCenter">
-               <h4>装饰着模式的应用</h4>
+               <h4>装饰者模式的应用</h4>
                <pre className="line-numbers">
                    <code className="language-javascript line-numbers">
                        {/*{ReactHtmlParser(this.state.code)}*/}
