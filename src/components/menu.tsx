@@ -6,6 +6,16 @@ import {Link} from 'react-router-dom';
 const { SubMenu } = Menu;
 
 const Sider: React.FC = () => {
+       let tsMenuArr = [
+           {toPath: '/ts/base', title: '基础类型'},
+           {toPath: '/ts/hard', title: '接口'},
+           {toPath: '/ts/arr', title: '数组'},
+           {toPath: '/ts/fun', title: '函数类型'},
+           {toPath: '/ts/enum', title: '枚举'},
+           {toPath: '/ts/clas', title: '类修饰符'},
+           {toPath: '/ts/assert', title: '类型断言'},
+           {toPath: '/ts/fan', title: '泛型'}
+       ];
         return (
             <Menu
                 style={{ width: 256 }}
@@ -45,25 +55,12 @@ const Sider: React.FC = () => {
                             <Link to='/vue2/mvvm'>简单的mvvm</Link>
                         </Menu.Item>
                     </Menu.ItemGroup>
-                    <Menu.ItemGroup key="g4" title="typescript">
-                        <Menu.Item key="9">
-                            <Link to='/ts/base'>基础类型</Link>
-                        </Menu.Item>
-                        <Menu.Item key="10">
-                            <Link to='/ts/base'>枚举</Link>
-                        </Menu.Item>
-                        <Menu.Item key="11">
-                            <Link to='/ts/base'>接口</Link>
-                        </Menu.Item>
-                        <Menu.Item key="12">
-                            <Link to='/ts/base'>类修饰符</Link>
-                        </Menu.Item>
-                        <Menu.Item key="13">
-                            <Link to='/ts/base'>类型断言</Link>
-                        </Menu.Item>
-                        <Menu.Item key="14">
-                            <Link to='/ts/base'>泛型</Link>
-                        </Menu.Item>
+                    <Menu.ItemGroup key="ts" title="typescript">
+                        {tsMenuArr.map((item,index)=>{
+                        return (<Menu.Item key={'ts'+ index}>
+                        <Link to={item.toPath}>{item.title}</Link>
+                        </Menu.Item>)
+                    })}
                     </Menu.ItemGroup>
                 </SubMenu>
             </Menu>

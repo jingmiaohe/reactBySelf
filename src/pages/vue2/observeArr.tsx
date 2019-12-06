@@ -1,5 +1,5 @@
 import React from 'react'
-import { highlight, languages} from 'prismjs';
+import { highlight, languages, highlightAll} from 'prismjs';
 import ReactHtmlParser from 'react-html-parser';
 
 interface Greeting {
@@ -31,6 +31,7 @@ class ObserveArr extends React.Component<Greeting> {
         `
     }
     componentDidMount() {
+        highlightAll(false, undefined);
         var arraypro:any = Array.prototype;
         // Object.create 等同于 arrayob.__proto__ = arraypro;
         var arrayob:any = Object.create(arraypro);

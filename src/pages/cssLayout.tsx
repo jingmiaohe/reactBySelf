@@ -89,11 +89,11 @@ class CssLayout extends React.Component<Greeting>{
                        1<Tag color="magenta" style={{marginLeft: 20}}>float + margin</Tag>
                    </h4>
                    <Row>
-                       <Col span={12}>
+                       <Col span={18}>
                            <div>{this.state.html1}</div>
                            <div>{this.state.css1}</div>
                        </Col>
-                       <Col span={12}>
+                       <Col span={6}>
                            <div className="parent parent1">
                                <div className = "left left1"></div>
                                <div className = "right right1"></div>
@@ -104,11 +104,11 @@ class CssLayout extends React.Component<Greeting>{
                        2<Tag color="magenta" style={{marginLeft: 20}}>float + overflow</Tag>
                    </h4>
                    <Row>
-                       <Col span={12}>
+                       <Col span={18}>
                            <div>{this.state.html1}</div>
                            <div>{this.state.css1}</div>
                        </Col>
-                       <Col span={12}>
+                       <Col span={6}>
                            <div className="parent parent2">
                                <div className = "left"></div>
                                <div className = "right"></div>
@@ -119,11 +119,11 @@ class CssLayout extends React.Component<Greeting>{
                        3<Tag color="magenta" style={{marginLeft: 20}}>table</Tag>
                    </h4>
                    <Row>
-                       <Col span={12}>
+                       <Col span={18}>
                            <div>{this.state.html3}</div>
                            <div>{this.state.css3}</div>
                        </Col>
-                       <Col span={12}>
+                       <Col span={6}>
                            <div className="parent parent3">
                                <div className = "left"></div>
                                <div className = "right"></div>
@@ -134,11 +134,11 @@ class CssLayout extends React.Component<Greeting>{
                        4<Tag color="magenta" style={{marginLeft: 20}}>flex</Tag>
                    </h4>
                    <Row>
-                       <Col span={12}>
+                       <Col span={18}>
                            <div>{this.state.html4}</div>
                            <div>{this.state.css4}</div>
                        </Col>
-                       <Col span={12}>
+                       <Col span={6}>
                            <div className="parent parent4">
                                <div className = "left"></div>
                                <div className = "right"></div>

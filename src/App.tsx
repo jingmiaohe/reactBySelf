@@ -14,8 +14,31 @@ import ObserveArr from './pages/vue2/observeArr'
 
 // ts 部分
 import BaseTs from './pages/ts/base'
+import HardTs from './pages/ts/hard'
+import ArrTs from './pages/ts/arr'
+import ClasTs from './pages/ts/clas'
+import FunTs from './pages/ts/fun'
+import EnumTs from './pages/ts/enum'
+import FanTs from './pages/ts/fan'
+import AssertTs from './pages/ts/assert'
 
 const App: React.FC = () => {
+    let routeArr = [
+            {path: '/', component: CssCenter},
+            {path: '/css/reset', component: CssReset},
+            {path: '/css/center', component: CssCenter},
+            {path: '/css/layout', component: CssLayout},
+            {path: '/vue2/observeArr', component: ObserveArr},
+
+            {path: '/ts/base', component: BaseTs},
+            {path: '/ts/hard', component: HardTs},
+            {path: '/ts/arr', component: ArrTs},
+            {path: '/ts/clas', component: ClasTs},
+            {path: '/ts/fun', component: FunTs},
+            {path: '/ts/enum', component: EnumTs},
+            {path: '/ts/fan', component: FanTs},
+            {path: '/ts/assert', component: AssertTs}
+        ];
   return (
       <Router>
         <div className="m_menu">
@@ -23,19 +46,15 @@ const App: React.FC = () => {
           </Sider>
         </div>
         <div className="m_content">
-
-            {/*css*/}
-          <Route exact path="/" component = { CssCenter }></Route>
-          <Route exact path="/css/reset" component = { CssReset }></Route>
-          <Route exact path="/css/center" component = { CssCenter }></Route>
-          <Route exact path="/css/layout" component = { CssLayout }></Route>
-
-            {/*vue2*/}
-          <Route exact path="/vue2/observeArr" component = { ObserveArr }></Route>
-          {/*<Route exact path="/vue2/mvvm" component = { Mvvm }></Route>*/}
-
-            {/*ts*/}
-           <Route exact path="/ts/base" component = { BaseTs }></Route>
+            {routeArr.map((item,index)=>{
+                // item子体   index下标
+                // react里一般使用map遍历，通过return返回渲染代码块
+                // map可用于返回符合条件的内容结合if语句
+                // map不结合if判断语句则可以遍历数组，返回全部数组的内容
+                return(
+                    <Route exact path={item.path} component = { item.component }></Route>
+                )
+            })}
         </div>
       </Router>
   );

@@ -98,11 +98,11 @@ class CssCenter extends React.Component<Greeting> {
                        <Tag color="magenta" style={{marginLeft: 20}}>inline-block + text-align</Tag>
                    </h4>
                    <Row>
-                       <Col span={12}>
+                       <Col span={18}>
                            <div>{this.state.html1}</div>
                            <div>{this.state.css1}</div>
                        </Col>
-                       <Col span={12}>
+                       <Col span={6}>
                            <div className="parent parent1">
                                <div className = "child child1"></div>
                            </div>
@@ -112,11 +112,11 @@ class CssCenter extends React.Component<Greeting> {
                        <Tag color="magenta" style={{marginLeft: 20}}>table + margin</Tag>
                    </h4>
                    <Row>
-                       <Col span={12}>
+                       <Col span={18}>
                            <div>{this.state.html2}</div>
                            <div>{this.state.css2}</div>
                        </Col>
-                       <Col span={12}>
+                       <Col span={6}>
                            <div className="parent parent2">
                                <div className = "child child2"></div>
                            </div>
@@ -126,11 +126,11 @@ class CssCenter extends React.Component<Greeting> {
                        <Tag color="magenta" style={{marginLeft: 20}}>absolute + transform</Tag>
                    </h4>
                    <Row>
-                       <Col span={12}>
+                       <Col span={18}>
                            <div>{this.state.html3}</div>
                            <div>{this.state.css3}</div>
                        </Col>
-                       <Col span={12}>
+                       <Col span={6}>
                            <div className="parent parent3">
                                <div className = "child child3"></div>
                            </div>
@@ -140,11 +140,11 @@ class CssCenter extends React.Component<Greeting> {
                        <Tag color="magenta" style={{marginLeft: 20}}>flex + justify-content</Tag>
                    </h4>
                    <Row>
-                       <Col span={12}>
+                       <Col span={18}>
                            <div>{this.state.html4}</div>
                            <div>{this.state.css4}</div>
                        </Col>
-                       <Col span={12}>
+                       <Col span={6}>
                            <div className="parent parent4">
                                <div className = "child child4"></div>
                            </div>
@@ -157,11 +157,11 @@ class CssCenter extends React.Component<Greeting> {
                        2.1<Tag color="magenta" style={{marginLeft: 20}}>table-cell + vertical-align</Tag>
                    </h4>
                    <Row>
-                       <Col span={12}>
+                       <Col span={18}>
                            <div>{this.state.html5}</div>
                            <div>{this.state.css5}</div>
                        </Col>
-                       <Col span={12}>
+                       <Col span={6}>
                            <div className="parent parent5">
                                <div className = "child child5"></div>
                            </div>
@@ -181,11 +181,11 @@ class CssCenter extends React.Component<Greeting> {
                        3.1<Tag color="magenta" style={{marginLeft: 20}}>inline-block + text-align + table-cell + vertical-align</Tag>
                    </h4>
                    <Row>
-                       <Col span={12}>
+                       <Col span={18}>
                            <div>{this.state.html6}</div>
                            <div>{this.state.css6}</div>
                        </Col>
-                       <Col span={12}>
+                       <Col span={6}>
                            <div className="parent parent6">
                                <div className = "child child6"></div>
                            </div>
