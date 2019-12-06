@@ -24,14 +24,7 @@ const Sider: React.FC = () => {
                 mode="inline">
                 <SubMenu
                     key="sub1"
-                    title={
-                        <span>
-              <Icon type="mail" />
-              <span>目录</span>
-            </span>
-                    }
-                >
-                    <Menu.ItemGroup key="g1" title="css">
+                    title="css">
                         <Menu.Item key="1">
                             <Link to='/css/reset'>resetCss</Link>
                         </Menu.Item>
@@ -41,12 +34,16 @@ const Sider: React.FC = () => {
                         <Menu.Item key="3">
                             <Link to='/css/layout'>布局</Link>
                         </Menu.Item>
-                    </Menu.ItemGroup>
-                    <Menu.ItemGroup key="g2" title="js进阶">
+                </SubMenu>
+                <SubMenu
+                    key="sub2"
+                    title="js进阶">
                         <Menu.Item key="4">Option 3</Menu.Item>
                         <Menu.Item key="5">Option 4</Menu.Item>
-                    </Menu.ItemGroup>
-                    <Menu.ItemGroup key="g3" title="vue2">
+                </SubMenu>
+                <SubMenu
+                    key="sub3"
+                    title="vue2">
                         <Menu.Item key="6">
                             <Link to='/vue2/observeArr'>数组监听</Link>
                         </Menu.Item>
@@ -54,14 +51,15 @@ const Sider: React.FC = () => {
                         <Menu.Item key="8">
                             <Link to='/vue2/mvvm'>简单的mvvm</Link>
                         </Menu.Item>
-                    </Menu.ItemGroup>
-                    <Menu.ItemGroup key="ts" title="typescript">
+                </SubMenu>
+                <SubMenu
+                    key="sub4"
+                    title="ts">
                         {tsMenuArr.map((item,index)=>{
-                        return (<Menu.Item key={'ts'+ index}>
-                        <Link to={item.toPath}>{item.title}</Link>
-                        </Menu.Item>)
-                    })}
-                    </Menu.ItemGroup>
+                            return (<Menu.Item key={'ts'+ index}>
+                                <Link to={item.toPath}>{item.title}</Link>
+                            </Menu.Item>)
+                        })}
                 </SubMenu>
             </Menu>
         );
