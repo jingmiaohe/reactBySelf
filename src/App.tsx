@@ -27,6 +27,7 @@ import AssertTs from './pages/ts/assert'
 import memoryManagement from './pages/js/memoryManagement'
 import unitTest from './pages/js/unitTest'
 import codeReliable from './pages/js/codeReliable'
+import composeAndPipe from './pages/js/composeAndPipe'
 
 const App: React.FC = () => {
     let routeArr = [
@@ -48,6 +49,7 @@ const App: React.FC = () => {
             {path: '/jsCore/memoryManagement', component: memoryManagement},
             {path: '/jsCore/unitTest', component: unitTest},
             {path: '/jsCore/codeReliable', component: codeReliable},
+            {path: '/jsCore/composePipe', component: composeAndPipe},
         ];
   return (
       <Router>

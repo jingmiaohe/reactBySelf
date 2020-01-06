@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bdbc03b-5856-439b-8499-76ba334d61da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ts.ts" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.less" afterPath="$PROJECT_DIR$/src/App.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.tsx" afterPath="$PROJECT_DIR$/src/App.tsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/menu.tsx" afterPath="$PROJECT_DIR$/src/components/menu.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.tsx" afterPath="$PROJECT_DIR$/src/index.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/ts/hard.tsx" afterPath="$PROJECT_DIR$/src/pages/ts/hard.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/vue2/observeArr.tsx" afterPath="$PROJECT_DIR$/src/pages/vue2/observeArr.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/js/codeReliable.tsx" afterPath="$PROJECT_DIR$/src/pages/js/codeReliable.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/js/memoryManagement.tsx" afterPath="$PROJECT_DIR$/src/pages/js/memoryManagement.tsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,25 +22,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="menu.tsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="menu.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/menu.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="717">
+              <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
               <folding>
-                <element signature="e#1049#1579#0" expanded="false" />
-                <element signature="e#1596#2051#0" expanded="false" />
-                <element signature="e#2068#2432#0" expanded="false" />
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#1113#1643#0" expanded="false" />
+                <element signature="e#1660#2115#0" expanded="false" />
+                <element signature="e#2132#2496#0" expanded="false" />
+                <element signature="e#2513#2859#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codeReliable.tsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/js/codeReliable.tsx">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="161" column="85" lean-forward="true" selection-start-line="161" selection-start-column="85" selection-end-line="161" selection-end-column="85" />
+            <state relative-caret-position="319">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,8 +51,8 @@
       <file leaf-file-name="App.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="269">
+              <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
               <folding>
                 <element signature="e#71#136#0" expanded="true" />
                 <element signature="e#186#225#0" expanded="true" />
@@ -63,11 +63,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="App.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Prism.languages</find>
       <find>HtmlParser</find>
       <find>markdowm</find>
       <find>apply</find>
@@ -97,6 +106,7 @@
       <find>React</find>
       <find>style</find>
       <find>.png</find>
+      <find>stylelint</find>
     </findStrings>
     <replaceStrings>
       <replace>css</replace>
@@ -105,6 +115,9 @@
       <replace>__html: marked(t</replace>
       <replace>18</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,13 +146,16 @@
         <option value="$PROJECT_DIR$/src/pages/ts/fan.tsx" />
         <option value="$PROJECT_DIR$/src/pages/ts/hard.tsx" />
         <option value="$PROJECT_DIR$/src/pages/vue2/observeArr.tsx" />
-        <option value="$PROJECT_DIR$/src/index.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/js/memoryManagement.tsx" />
         <option value="$PROJECT_DIR$/src/pages/js/unitTest.tsx" />
-        <option value="$PROJECT_DIR$/src/App.less" />
+        <option value="$PROJECT_DIR$/src/pages/js/composePipe.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/js/composeAndPipe.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/js/memoryManagement.tsx" />
+        <option value="$PROJECT_DIR$/src/index.tsx" />
         <option value="$PROJECT_DIR$/src/App.tsx" />
-        <option value="$PROJECT_DIR$/src/components/menu.tsx" />
         <option value="$PROJECT_DIR$/src/pages/js/codeReliable.tsx" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/App.less" />
+        <option value="$PROJECT_DIR$/src/components/menu.tsx" />
       </list>
     </option>
   </component>
@@ -155,9 +171,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="831" />
-    <option name="y" value="23" />
-    <option name="width" value="1054" />
+    <option name="x" value="244" />
+    <option name="y" value="62" />
+    <option name="width" value="1585" />
     <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -188,26 +204,12 @@
             <path>
               <item name="newnote" type="b2602c69:ProjectViewProjectNode" />
               <item name="newnote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newnote" type="b2602c69:ProjectViewProjectNode" />
               <item name="newnote" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newnote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newnote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newnote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newnote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,15 +229,15 @@
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/util/prism" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages/js" />
       <recent name="$PROJECT_DIR$/src/pages/ts" />
       <recent name="$PROJECT_DIR$/src/pages/vue2" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/util/prism" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -269,20 +271,22 @@
       <workItem from="1575596996063" duration="8540000" />
       <workItem from="1578118879738" duration="6391000" />
       <workItem from="1578186079648" duration="18183000" />
+      <workItem from="1578221875300" duration="9893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76322000" />
+    <option name="totallyTimeSpent" value="86215000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="831" y="23" width="1054" height="998" extended-state="0" />
+    <frame x="244" y="62" width="1585" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26565465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1577287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -295,7 +299,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -318,53 +321,23 @@
           <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/js/composeAndPipe.tsx</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/ts/base.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#421#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/cssCenter.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
           <caret line="97" column="19" lean-forward="false" selection-start-line="97" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <marker date="1575604620428" expanded="true" signature="441:533" ph="..." />
-            <marker date="1575604620428" expanded="true" signature="796:900" ph="..." />
-            <marker date="1575604620428" expanded="true" signature="1268:1342" ph="..." />
-            <marker date="1575604620428" expanded="true" signature="1603:1677" ph="..." />
-            <marker date="1575604620428" expanded="true" signature="1938:2021" ph="..." />
-            <marker date="1575604620428" expanded="true" signature="2293:2376" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -373,10 +346,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#25#0" expanded="false" />
-            <element signature="e#1049#1579#0" expanded="false" />
-            <element signature="e#1596#2051#0" expanded="false" />
-            <element signature="e#2068#2432#0" expanded="false" />
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#1113#1643#0" expanded="false" />
+            <element signature="e#1660#2115#0" expanded="false" />
+            <element signature="e#2132#2496#0" expanded="false" />
+            <element signature="e#2513#2859#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -400,7 +374,10 @@
         <state relative-caret-position="116">
           <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="19" />
           <folding>
+            <element signature="e#71#136#0" expanded="true" />
+            <element signature="e#186#225#0" expanded="true" />
             <element signature="e#421#457#0" expanded="true" />
+            <element signature="e#726#784#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -574,15 +551,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <marker date="1575604620428" expanded="true" signature="441:533" ph="..." />
-            <marker date="1575604620428" expanded="true" signature="796:900" ph="..." />
-            <marker date="1575604620428" expanded="true" signature="1268:1342" ph="..." />
-            <marker date="1575604620428" expanded="true" signature="1603:1677" ph="..." />
-            <marker date="1575604620428" expanded="true" signature="1938:2021" ph="..." />
-            <marker date="1575604620428" expanded="true" signature="2293:2376" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12928">
           <caret line="561" column="51" lean-forward="false" selection-start-line="561" selection-start-column="51" selection-end-line="561" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,15 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,31 +672,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/js/memoryManagement.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="108" column="63" lean-forward="false" selection-start-line="108" selection-start-column="39" selection-end-line="108" selection-end-column="63" />
-          <folding>
-            <element signature="e#6753#7328#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,22 +691,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/menu.tsx">
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/tooltip/style/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#1049#1579#0" expanded="false" />
-            <element signature="e#1596#2051#0" expanded="false" />
-            <element signature="e#2068#2432#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="29">
+          <caret line="1" column="46" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="269">
+          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
           <folding>
             <element signature="e#71#136#0" expanded="true" />
             <element signature="e#186#225#0" expanded="true" />
@@ -778,11 +720,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/js/memoryManagement.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="158" column="35" lean-forward="true" selection-start-line="158" selection-start-column="35" selection-end-line="158" selection-end-column="35" />
+          <folding>
+            <element signature="e#6873#7448#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/js/composeAndPipe.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="149" column="59" lean-forward="true" selection-start-line="149" selection-start-column="36" selection-end-line="149" selection-end-column="59" />
+          <folding>
+            <marker date="1578298243322" expanded="true" signature="2336:6472" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="2356:6454" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="2380:6433" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="2450:2651" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="2679:6408" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="2711:3197" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="2848:3164" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="2928:3133" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="3229:3712" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="3363:3679" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="3443:3648" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="3744:4230" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="3881:4197" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="3961:4166" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="4262:4754" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="4405:4721" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="4485:4690" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="4786:5270" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="4921:5237" ph="..." />
+            <marker date="1578298243322" expanded="true" signature="5001:5206" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/js/codeReliable.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="161" column="85" lean-forward="true" selection-start-line="161" selection-start-column="85" selection-end-line="161" selection-end-column="85" />
+        <state relative-caret-position="145">
+          <caret line="174" column="2" lean-forward="true" selection-start-line="174" selection-start-column="2" selection-end-line="174" selection-end-column="2" />
+          <folding>
+            <element signature="e#145#1927#0" expanded="false" />
+            <element signature="n#!!block;n#componentWillMount#0;n#codeReliable#0" expanded="false" />
+            <element signature="n#!!block;n#render#0;n#codeReliable#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/menu.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#1113#1643#0" expanded="false" />
+            <element signature="e#1660#2115#0" expanded="false" />
+            <element signature="e#2132#2496#0" expanded="false" />
+            <element signature="e#2513#2859#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

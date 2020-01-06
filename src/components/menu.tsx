@@ -19,7 +19,8 @@ const Sider: React.FC = () => {
     let jsMenuArr = [
         {toPath: '/jsCore/memoryManagement', title: '内存管理'},
         {toPath: '/jsCore/unitTest', title: '代码质量'},
-        {toPath: '/jsCore/codeReliable', title: '代码可靠性'}
+        {toPath: '/jsCore/codeReliable', title: '代码可靠性'},
+        {toPath: '/jsCore/composePipe', title: 'compose pipe'}
     ];
         return (
             <Menu

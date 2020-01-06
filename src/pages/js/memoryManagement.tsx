@@ -14,7 +14,7 @@ class memoryManagement extends React.Component {
                    </li>
                    <li>
                        <h3>js 原始数据类型</h3>
-                       <div style={{color: '#aaa'}}> 原始数据类型 有固定大小，都是按值访问，保存在 <strong>栈中</strong></div>
+                       <div className="littleTitle"> 原始数据类型 有固定大小，都是按值访问，保存在 <strong>栈中</strong></div>
                        <ul>
                            <li>字符串 String</li>
                            <li>数字 Number</li>
@@ -24,21 +24,21 @@ class memoryManagement extends React.Component {
                            <li>Symbol</li>
                        </ul>
                        <h3>js 引用类型</h3>
-                       <div  style={{color: '#aaa'}}> 没有固定大小，保存在 <strong>堆中</strong>，不能直接访问，栈中保存该对象引用</div>
+                       <div  className="littleTitle"> 没有固定大小，保存在 <strong>堆中</strong>，不能直接访问，栈中保存该对象引用</div>
                        <ul>
                            <li>Object</li>
                        </ul>
                        <h3>内存空间</h3>
                        <ol>
-                           <li>栈内存（stack）： 先进后出，运算受限的线性表</li>
-                           <li>堆内存（heap）</li>
+                           <li className="littleTitle">栈内存（stack）： 先进后出，运算受限的线性表</li>
+                           <li className="littleTitle">堆内存（heap）</li>
                        </ol>
                    </li>
                    <li>
                        <h3>垃圾回收</h3>
                        <ol>
-                           <li>不再使用的变量 占用的内存 进行回收</li>
-                           <li>垃圾回收固定时间周期自动进行，不可见，无法干预</li>
+                           <li className="littleTitle">不再使用的变量 占用的内存 进行回收</li>
+                           <li className="littleTitle">垃圾回收固定时间周期自动进行，不可见，无法干预</li>
                        </ol>
                        <h3>垃圾回收策略：<span>引用计数</span></h3>
                        <div style={{color: '#aaa'}}>跟踪记录每个值，引用加1，释放减1，当引用次数为0，则内存释放，空间回收</div>
@@ -63,7 +63,7 @@ class memoryManagement extends React.Component {
                    </li>
                    <li>
                        <h2>v8（jvascript 引擎）内存管理机制</h2>
-                       <div>应用在 <strong>谷歌浏览器，android，nodejs</strong> 中</div>
+                       <div className="littleTitle">应用在 <strong>谷歌浏览器，android，nodejs</strong> 中</div>
                        <div  style={{color: '#aaa'}}>
                            v8限制内存 <br/>
                            本身为浏览器设计，不太可能遇到大量内存的使用场景 <br/>
@@ -152,11 +152,11 @@ class memoryManagement extends React.Component {
                        </div>
                        <ol>
                            <li>
-                               <div>Mark-Sweep：标记活着的对象</div>
+                               <div className="littleTitle">Mark-Sweep：标记活着的对象</div>
                                <img style={{width:'500px'}}  src = {require("./image/oldStep1.png")} alt=""/>
                            </li>
                            <li>
-                               <div>Mark-Compact：将活着的对象向内存空间的一端移动，移动完成后，直接清理掉边界外的所有内存</div>
+                               <div className="littleTitle">Mark-Compact：将活着的对象向内存空间的一端移动，移动完成后，直接清理掉边界外的所有内存</div>
                                <img style={{width:'500px'}}  src = {require("./image/oldStep2.png")} alt=""/> <br/>
                                <img style={{width:'500px'}}  src = {require("./image/oldStep3.png")} alt=""/>
                            </li>

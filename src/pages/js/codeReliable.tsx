@@ -154,15 +154,16 @@ class codeReliable extends React.Component {
                                            </code>
                                         </pre>
                                     </li>
-
-                                    <li>不可变性指一个变量，一旦被创建，就永远不会发生改变，不可变性是函数式编程的核心概念</li>
+                                    <li>
+                                        不可变性指一个变量，一旦被创建，就永远不会发生改变，不可变性是函数式编程的核心概念
                                     <pre className="line-numbers">
                                            <code className="language-javascript line-numbers"
                                                  dangerouslySetInnerHTML={{
                                                      __html: marked(this.state.code5)
                                                  }}>
                                            </code>
-                                        </pre>
+                                    </pre>
+                                    </li>
                                 </ol>
                             </li>
                         </ul>
@@ -172,4 +173,4 @@ class codeReliable extends React.Component {
         );
     }
 };
-export default codeReliable
+export default codeReliable;
