@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tag } from 'antd';
+// import { Tag } from 'antd';
 import marked from 'marked';
 import hljs from 'highlight.js';
 class Hard extends React.Component {

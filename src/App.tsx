@@ -22,6 +22,12 @@ import EnumTs from './pages/ts/enum'
 import FanTs from './pages/ts/fan'
 import AssertTs from './pages/ts/assert'
 
+// js 部分
+
+import memoryManagement from './pages/js/memoryManagement'
+import unitTest from './pages/js/unitTest'
+import codeReliable from './pages/js/codeReliable'
+
 const App: React.FC = () => {
     let routeArr = [
             {path: '/', component: CssCenter},
@@ -37,7 +43,11 @@ const App: React.FC = () => {
             {path: '/ts/fun', component: FunTs},
             {path: '/ts/enum', component: EnumTs},
             {path: '/ts/fan', component: FanTs},
-            {path: '/ts/assert', component: AssertTs}
+            {path: '/ts/assert', component: AssertTs},
+
+            {path: '/jsCore/memoryManagement', component: memoryManagement},
+            {path: '/jsCore/unitTest', component: unitTest},
+            {path: '/jsCore/codeReliable', component: codeReliable},
         ];
   return (
       <Router>

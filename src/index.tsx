@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-import 'highlight.js/styles/monokai-sublime.css';
+import 'highlight.js/styles/github.css';
 import 'antd/dist/antd.css';
 import './App.less';
 import './css.less';

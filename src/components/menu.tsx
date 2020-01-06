@@ -1,5 +1,5 @@
 import React from 'react'
-import { Menu, Icon } from 'antd';
+import { Menu } from 'antd';
 // import {BrowserRouter as Router , Route , Switch} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 
@@ -16,6 +16,11 @@ const Sider: React.FC = () => {
            {toPath: '/ts/assert', title: '类型断言'},
            {toPath: '/ts/fan', title: '泛型'}
        ];
+    let jsMenuArr = [
+        {toPath: '/jsCore/memoryManagement', title: '内存管理'},
+        {toPath: '/jsCore/unitTest', title: '代码质量'},
+        {toPath: '/jsCore/codeReliable', title: '代码可靠性'}
+    ];
         return (
             <Menu
                 style={{ width: 256 }}
@@ -37,12 +42,6 @@ const Sider: React.FC = () => {
                 </SubMenu>
                 <SubMenu
                     key="sub2"
-                    title="js进阶">
-                        <Menu.Item key="4">Option 3</Menu.Item>
-                        <Menu.Item key="5">Option 4</Menu.Item>
-                </SubMenu>
-                <SubMenu
-                    key="sub3"
                     title="vue2">
                         <Menu.Item key="6">
                             <Link to='/vue2/observeArr'>数组监听</Link>
@@ -53,13 +52,22 @@ const Sider: React.FC = () => {
                         </Menu.Item>
                 </SubMenu>
                 <SubMenu
-                    key="sub4"
+                    key="sub3"
                     title="ts">
                         {tsMenuArr.map((item,index)=>{
                             return (<Menu.Item key={'ts'+ index}>
                                 <Link to={item.toPath}>{item.title}</Link>
                             </Menu.Item>)
                         })}
+                </SubMenu>
+                <SubMenu
+                    key="sub4"
+                    title="js进阶">
+                    {jsMenuArr.map((item,index)=>{
+                        return (<Menu.Item key={'js'+ index}>
+                            <Link to={item.toPath}>{item.title}</Link>
+                        </Menu.Item>)
+                    })}
                 </SubMenu>
             </Menu>
         );
