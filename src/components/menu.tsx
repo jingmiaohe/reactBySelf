@@ -20,7 +20,10 @@ const Sider: React.FC = () => {
         {toPath: '/jsCore/memoryManagement', title: '内存管理'},
         {toPath: '/jsCore/unitTest', title: '代码质量'},
         {toPath: '/jsCore/codeReliable', title: '代码可靠性'},
-        {toPath: '/jsCore/composePipe', title: 'compose pipe'}
+        {toPath: '/jsCore/composePipe', title: 'compose pipe'},
+        {toPath: '/jsCore/highOrderFun', title: '高阶函数'},
+        {toPath: '/jsCore/commonFuns', title: '常用函数'},
+        {toPath: '/jsCore/throttle', title: '防抖和截流'},
     ];
         return (
             <Menu

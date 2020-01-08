@@ -83,6 +83,7 @@ class composePipe extends React.Component {
                             将需要嵌套执行的函数平铺，<br/>
                             返回函数集 functions 组合后的复合函数<br/>
                             一个函数执行完之后把返回的结果再作为参数赋给下一个函数来执行.<br/>
+                            参数是 一 个 .<br/>
                         </div>
                        <ul>
                            <li>
