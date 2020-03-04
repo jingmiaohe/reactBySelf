@@ -3,6 +3,7 @@ import marked from 'marked';
 import hljs from 'highlight.js';
 class throttle extends React.Component {
     state = {
+        code: '# Marked in browser\n\nRendered by **marked**.',
         code1: `
          let deBounce = function(fn,delay) {
             let timer;

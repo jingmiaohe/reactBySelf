@@ -148,7 +148,7 @@ class commonFuns extends React.Component {
                                 </pre>
                            </li>
                            <li>
-                               <h3>😯😯😯总结😯😯😯</h3>
+                               <h3><span>😯😯😯总结😯😯😯</span></h3>
                                <h4>
                                    // 柯里化 或  偏函数 主要是对于参数进行一些操作，将多个参数转换为单一参数或者减少参数个数的过程。
                                  </h4>
