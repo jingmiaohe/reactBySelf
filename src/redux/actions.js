@@ -17,3 +17,9 @@ export function setCurrentNode (id, nodeType) {
         nodeType
     };
 }
+export function setMenuRefresh (isRefresh) {
+    return {
+        type: 'SET_MENU_REFRESH',
+        isRefresh
+    };
+}

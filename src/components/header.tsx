@@ -3,11 +3,13 @@ import { Button, Modal, Input, Popconfirm, message } from 'antd';
 import { connect } from 'react-redux'
 import axios from 'axios';
 import qs from 'qs';
+import { setMenuRefresh } from '../redux/actions.js'
 
 interface HeaderProps {
     currentNodeId: string,
     currentNodeType: string,
-    editorContent: string
+    editorContent: string,
+    setMenuRefresh: Function
 }
 interface HeaderState {
     visible: boolean,
@@ -49,7 +51,8 @@ class Header extends React.Component<HeaderProps, HeaderState> {
             type,
         })).then(res => {
             if (res.data.code === 0){
-                console.log('保存成功')
+                message.success('保存成功');
+                this.props.setMenuRefresh(1);
                 // 还需要刷新 菜单
             }
         });
@@ -65,8 +68,9 @@ class Header extends React.Component<HeaderProps, HeaderState> {
             id: this.props.currentNodeId
         })).then(res => {
             if (res.data.code === 0){
-                console.log('保存成功')
+                message.success('删除成功');
                 // 还需要刷新 菜单
+                this.props.setMenuRefresh(1);
             }
         })
     }
@@ -75,7 +79,8 @@ class Header extends React.Component<HeaderProps, HeaderState> {
             id: this.props.currentNodeId
         })).then(res => {
             if (res.data.code === 0){
-                console.log('保存成功')
+                message.success('删除成功');
+                this.props.setMenuRefresh(1);
                 // 还需要刷新 菜单
             }
         })
@@ -124,14 +129,6 @@ class Header extends React.Component<HeaderProps, HeaderState> {
                         <Button type="primary"  onClick={this.clickAddFile.bind(this)}>
                             新建文章
                         </Button>
-                        <Popconfirm
-                            title="是否确认删除该文件"
-                            onConfirm={this.confirmDeleteFile.bind(this)}
-                            okText="Yes"
-                            cancelText="No"
-                        >
-                            <Button type="primary">删除文章</Button>
-                        </Popconfirm>
 
                     </Fragment>
                     :
@@ -145,6 +142,14 @@ class Header extends React.Component<HeaderProps, HeaderState> {
                         <Button type="primary" onClick={this.editFile.bind(this)}>
                             编辑
                         </Button>
+                        <Popconfirm
+                            title="是否确认删除该文件"
+                            onConfirm={this.confirmDeleteFile.bind(this)}
+                            okText="Yes"
+                            cancelText="No"
+                        >
+                            <Button type="primary">删除文章</Button>
+                        </Popconfirm>
                     </Fragment>
                         }
                 <Modal
@@ -166,4 +171,11 @@ const mapStateToProps = (state: any) => {
         editorContent: state.editorContent
     }
 }
-export default connect(mapStateToProps,{})(Header as any)
+const mapDispatchToProps = (dispatch: any) => {
+    return {
+        setMenuRefresh: (isRefresh:number) =>  {
+            dispatch(setMenuRefresh(isRefresh));
+        }
+    }
+}
+export default connect(mapStateToProps,mapDispatchToProps)(Header as any)

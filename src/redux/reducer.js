@@ -17,6 +17,10 @@ const reducer = function(state = defaultState, action) {
                 currentNodeId: action.id,
                 currentNodeType: action.nodeType
             })
+        case 'SET_MENU_REFRESH':
+            return Object.assign({}, state, {
+                shouldRefreshMenu: action.isRefresh
+            })
         default:
             return state
     }
